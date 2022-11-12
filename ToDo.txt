@@ -1,0 +1,58 @@
+﻿
+Ohjeet
+
+Shakki on peli, missä kaksi pelaajaa asettaa kumpikin pelilaudalle shakkinappuloita
+
+
+
+Shakissa kummallakin pelaajalla on  
+
+8 sotilasta, 
+
+2 tornia, 
+
+2 ratsua, 
+
+2 lähettiä, 
+
+1 kuningatar,
+
+1 kuningas
+
+
+
+Shakkinappulalla on olemassa tieto siitä onko se syöty vai edelleen pelissä mukana sekä tieto, joka kertoo onko nappula musta vai valkoinen.
+
+
+
+Tee sovellus ja mallinna shakkipeli luokiksi ja suunnittele millaisissa suhteissa luokat voisivat olla toisiinsa.
+
+Testaa luokkia pääohjelmasta mm. tulostamalla pelilaudan tiedot sekä pelissä mukana olevan pelaajien shakkinappuloista tietoa.
+
+
+
+Pelaajasta riittää pelkkä nimi tieto ja pelilaudasta halutaan tietää pelin aloitushetki, pelaajat sekä pelin mahdollinen voittajan nimi.
+
+Shakkinappulasta pitää pystyä saamaan tieto sen tyypistä ja siitä onko nappula syöty vai ei.
+
+Shakkinappuloita ei tarvitse sijoittaa pelilaudalle x,y - koordinaatteihin eikä myöskään varsinaista pelilogiikkaa tarvitse toteuttaa.
+
+
+Luokat
+
+Nappula
+    - bool IsAlive
+    - char X
+    - char Y
+
+Sotilas : Nappula
+
+Torni : Nappula
+
+Ratsu : Nappula
+
+Lähetti : Nappula
+
+Kuningatar : Nappula
+
+Kuningas : Nappula

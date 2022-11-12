@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GamePieces\" />
+    <None Remove="DebugUtils\" />
+    <None Remove="Player\" />
+    <None Remove="Board\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GamePieces\" />
+    <Folder Include="DebugUtils\" />
+    <Folder Include="Player\" />
+    <Folder Include="Board\" />
+  </ItemGroup>
+</Project>
