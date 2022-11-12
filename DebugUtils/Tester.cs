@@ -24,6 +24,11 @@ namespace Chess.DebugUtils
             newGame.Player2.PrintPieces();
         }
 
+        public static void TestBoardPrint() 
+        {
+            newGame.PrintBoard();
+        }
+
 
 	}
 }

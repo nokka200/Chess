@@ -5,6 +5,7 @@
 		public Queen(int x, int y) : base(x, y)
 		{
             PieceType = Type.Queen;
+			Logo = 'Q';
         }
 	}
 }

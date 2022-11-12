@@ -14,7 +14,6 @@
     <None Remove="Board\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="GamePieces\" />
     <Folder Include="DebugUtils\" />
     <Folder Include="Player\" />
     <Folder Include="Board\" />

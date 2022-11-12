@@ -5,6 +5,7 @@
 		public Knight(int x, int y) : base(x, y)
 		{
 			PieceType = Type.Knight;
+			Logo = 'k';
         }
 	}
 }

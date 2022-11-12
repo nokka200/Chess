@@ -7,6 +7,7 @@
 		public int X { get; set; }
 		public int Y { get; set; }
 		public Type PieceType { get; protected set; }
+		public char Logo { get; protected set; }
 
 		public enum Type
 		{
@@ -15,7 +16,8 @@
 			Knight,
 			Bishop,
 			Queen,
-			King
+			King,
+			Empty
 		}
 
         public Piece(int x, int y)

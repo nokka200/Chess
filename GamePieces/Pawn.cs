@@ -5,6 +5,7 @@
 		public Pawn(int x, int y) : base(x, y)
 		{
 			PieceType = Type.Pawn;
+			Logo = 'P';
         }
 	}
 }

@@ -5,6 +5,7 @@
 		public Rook(int x, int y) : base(x, y)
 		{
             PieceType = Type.Rook;
+			Logo = 'R';
         }
 	}
 }

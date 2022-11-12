@@ -56,3 +56,11 @@ Lähetti : Nappula
 Kuningatar : Nappula
 
 Kuningas : Nappula
+
+
+Todo
+
+In progress
+Pieces to correct spots on board /GameBoard
+
+Done

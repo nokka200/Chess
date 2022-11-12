@@ -5,6 +5,7 @@
 		public Bishop(int x, int y) : base(x, y)
 		{
 			PieceType = Type.Bishop;
+			Logo = 'B';
 		}
 	}
 }
