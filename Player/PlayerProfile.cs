@@ -37,6 +37,7 @@ namespace Chess.Player
             }
         }
 
+
 		void CreatePieces()
 		{
 			if (Color == "White")

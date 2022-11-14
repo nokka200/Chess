@@ -61,6 +61,8 @@ Kuningas : Nappula
 Todo
 
 In progress
-Pieces to correct spots on board /GameBoard
+Moving pieces, methods OK needs testing
+
 
 Done
+Pieces to correct spots on board /GameBoard
