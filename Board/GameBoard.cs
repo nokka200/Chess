@@ -1,6 +1,12 @@
 ﻿using Chess.GamePieces;using Chess.Player;namespace Chess.Board{	public class GameBoard	{		// fields		readonly DateTime startTime;		// properties		public Piece[,] CurrentBoard { get; private set; }		public PlayerProfile Player1 { get; private set; }		public PlayerProfile Player2 { get; private set; }		// const		const int X = 8;		const int Y = 8;		public GameBoard(string firstName, string secondName)		{			Player1 = new(firstName, "White");			Player2 = new(secondName, "Black");			CurrentBoard = new Piece[X, Y];			startTime = DateTime.Now;
+
+			EmptyBoard();
 			CreateBoard();
-        }		// public methods		public void PrintBoard()		{			for (int i = 0; i < X; i++)			{				for (int k = 0;  k < Y;  k++)				{					Console.WriteLine(CurrentBoard[i, k].Logo);				}				Console.WriteLine();			}		}
+        }		// public methods		public void PrintBoard()		{			for (int i = 0; i < X; i++)			{				for (int k = 0;  k < Y;  k++)				{					Console.Write(CurrentBoard[i, k].Logo);				}
+                Console.WriteLine();
+            }
+            
+        }
 
 		// private methods
         void CreateBoard()
@@ -12,7 +18,21 @@
 
             foreach (var item in Player2.PlayersPieces)
             {
-                CurrentBoard[item.Y, item.X] = item;
+               CurrentBoard[item.Y, item.X] = item;
             }
         }
+
+		void EmptyBoard()
+		{
+			for (int i = 0; i < Y; i++)
+			{
+				for (int k = 0; k < X; k++)
+				{
+					Empty tempObj = new(k, i);
+
+					CurrentBoard[i, k] = tempObj;
+
+                }
+			}
+		}
     }}
