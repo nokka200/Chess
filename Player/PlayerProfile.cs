@@ -55,34 +55,29 @@ namespace Chess.Player
 		{
 			for (int i = 0; i < MAX_PAWN; i++)
 			{
-				Pawn tempObj = new(i, 6);
+				Piece tempObj = new Pawn(i, 6);
                 PlayersPieces.Add(tempObj);
 			}
 
-			Bishop tempBis1 = new(2, 7);
+            Piece tempBis1 = new Bishop(2, 7);
             PlayersPieces.Add(tempBis1);
-            Bishop tempBis2 = new(5, 7);
+            Piece tempBis2 = new Bishop(5, 7);
             PlayersPieces.Add(tempBis2);
 
-			Rook tempRook1 = new(0, 7);
+            Piece tempRook1 = new Rook(0, 7);
             PlayersPieces.Add(tempRook1);
-            Rook tempRook2 = new(7, 7);
+            Piece tempRook2 = new Rook(7, 7);
             PlayersPieces.Add(tempRook2);
 
-            Knight tempKnight1 = new(1, 7);
+            Piece tempKnight1 = new Knight(1, 7);
             PlayersPieces.Add(tempKnight1);
-            Knight tempKnight2 = new(6, 7);
+            Piece tempKnight2 = new Knight(6, 7);
             PlayersPieces.Add(tempKnight2);
 
-            Bishop tempBish1 = new(2, 7);
-            PlayersPieces.Add(tempBish1);
-            Bishop tempBish2 = new(5, 7);
-            PlayersPieces.Add(tempBish2);
-
-            Queen tempQueen = new(3, 7);
+            Piece tempQueen = new Queen(3, 7);
             PlayersPieces.Add(tempQueen);
 
-            King tempKing = new(4, 7);
+            Piece tempKing = new King(4, 7);
             PlayersPieces.Add(tempKing);
 
         }
@@ -91,34 +86,29 @@ namespace Chess.Player
 		{
             for (int i = 0; i < MAX_PAWN; i++)
             {
-                Pawn tempObj = new(i, 1);
+                Piece tempObj = new Pawn(i, 1);
                 PlayersPieces.Add(tempObj);
             }
 
-            Bishop tempBis1 = new(2, 0);
+            Piece tempBis1 = new Bishop(2, 0);
             PlayersPieces.Add(tempBis1);
-            Bishop tempBis2 = new(5, 0);
+            Piece tempBis2 = new Bishop(5, 0);
             PlayersPieces.Add(tempBis2);
 
-            Rook tempRook1 = new(0, 0);
+            Piece tempRook1 = new Rook(0, 0);
             PlayersPieces.Add(tempRook1);
-            Rook tempRook2 = new(7, 0);
+            Piece tempRook2 = new Rook(7, 0);
             PlayersPieces.Add(tempRook2);
 
-            Knight tempKnight1 = new(1, 0);
+            Piece tempKnight1 = new Knight(1, 0);
             PlayersPieces.Add(tempKnight1);
-            Knight tempKnight2 = new(6, 0);
+            Piece tempKnight2 = new Knight(6, 0);
             PlayersPieces.Add(tempKnight2);
 
-            Bishop tempBish1 = new(2, 0);
-            PlayersPieces.Add(tempBish1);
-            Bishop tempBish2 = new(5, 0);
-            PlayersPieces.Add(tempBish2);
-
-            Queen tempQueen = new(3, 0);
+            Piece tempQueen = new Queen(3, 0);
             PlayersPieces.Add(tempQueen);
 
-            King tempKing = new(4, 0);
+            Piece tempKing = new King(4, 0);
             PlayersPieces.Add(tempKing);
         }
 	}
