@@ -64,18 +64,18 @@ namespace Chess.Board
 		{
 			if (player == 1)
             {
-                MovePlayerOne(newX, newY, pieceToMove, Player1);
+                MovePlayer(newX, newY, pieceToMove, Player1);
             }
             else
 			{
-                MovePlayerOne(newX, newY, pieceToMove, Player2);
+                MovePlayer(newX, newY, pieceToMove, Player2);
             }
 		}
 
 
 
         // private methods
-        void MovePlayerOne(int newX, int newY, int pieceToMove, PlayerProfile playerToMove)
+        void MovePlayer(int newX, int newY, int pieceToMove, PlayerProfile playerToMove)
         {
             int tempX;
             int tempY;

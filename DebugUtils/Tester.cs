@@ -41,7 +41,11 @@ namespace Chess.DebugUtils
             newGame.PrintBoard();
         }
 
-
+        public static void TestMovePiece()
+        {
+            newGame.MovePiece(1, 3, 3, 1);
+            newGame.PrintBoard();
+        }
 	}
 }
 
